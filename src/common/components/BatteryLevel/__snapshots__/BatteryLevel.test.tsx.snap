@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "paddingHorizontal": 5,
+        "paddingVertical": 5,
+        "width": 75,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "lineHeight": 15,
+          "marginRight": 5,
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
+    40
+    %
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 16,
+          "position": "relative",
+          "width": 30,
+        },
+        Object {
+          "borderColor": "rgba(255, 255, 255, 0.35)",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "transparent",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "height": 10,
+            "margin": 2,
+            "width": 20,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "width": 9.6,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomRightRadius": 8,
+            "borderTopRightRadius": 8,
+            "borderWidth": 1,
+            "height": 6,
+            "marginLeft": 3,
+            "position": "absolute",
+            "right": -4,
+            "top": 4,
+            "width": 2,
+          },
+          Object {
+            "borderColor": "rgba(255, 255, 255, 0.35)",
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

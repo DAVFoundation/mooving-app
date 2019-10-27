@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/common/assets/logos/logo-dav_dark.png",
+      }
+    }
+    style={
+      Object {
+        "height": 82.5,
+        "width": 82.5,
+      }
+    }
+  />
+</View>
+`;

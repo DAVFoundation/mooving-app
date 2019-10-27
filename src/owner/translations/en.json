@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "Owner App"
+  },
+  "rideStatus": {
+    "all": "All",
+    "onmission": "In ride",
+    "available": "Available",
+    "notavailable": "Not available",
+    "maintenance": "Maintenance",
+  },
+  "account": {
+    "header": "Account",
+    "payment": {
+      "title": "Payment",
+      "addMore": "Add payment method",
+      "noCard": "No credit card available"
+    },
+    "personalDetails": {
+      "title": "Account Details",
+      "phone": "Phone number",
+      "companyName": "Company name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email"
+    },
+    "davWallet": {
+      "title": "Your DAV Wallet",
+      "balance": "Current balance:",
+      "text": "DAV coins are being granted to users with every ride they take, and later enable them to pay for rides"
+    },
+    "buttons": {
+      "signout": "Sign Out",
+      "save": "Save",
+      "discard": "Discard",
+      "change": "Change credit card",
+      "add": "Add credit card"
+    }
+  },
+  "vehicles": {
+    "title": "Vehicles",
+    "searchbar": "Search vehicles",
+    "refresh": "Pull to refresh",
+    "novehicles": {
+      "description": "As soon as you add your first vehicle, it will appear here"
+    },
+    "vehicleModal": {
+      "location": "Latest location",
+      "feedback": "User Rating",
+      "emptyFeedbackListText": "There are no ratings yet.",
+      "alerts": {
+        "available": {
+          "title": "Switch to Available?",
+          "text": "Your vehicle will be available for rides"
+        },
+        "notavailable": {
+          "title": "Switch to Not Available?",
+          "text": "Your vehicle will not be available for rides"
+        },
+        "maintenance": {
+          "title": "Switch to Maintenance?",
+          "text": "Your vehicle will be unlocked and will not be available for rides"
+        }
+      }
+    },
+    "noVehiclesOfType": {
+      "text": "There are no vehicles in this state"
+    }
+  },
+  "signup": {
+    "phone": {
+      "description": "Add your mobile phone number to get started",
+      "error": "Code invalid or expired",
+      "manager": "Manager"
+    },
+    "code": {
+      "title": "Validate phone",
+      "text": "An SMS with the code has been sent to"
+    },
+    "t&c": {
+      "text": "By using this app, you agree to the DAV",
+      "link": "Terms & Conditions."
+    }
+  },
+  "notifications": {
+    "noVehicles": "You have no vehicles"
+  },
+  "pieChart": {
+    "vehicle": "vehicle",
+    "vehicles": "vehicles"
+  },
+  "errors": {
+    "updateRequired": {
+      "text": "A new version of DAV is ready for download. Please update the app in order to continue using it.",
+      "title": "Update Required",
+      "buttonText": "Update"
+    },
+    "changeVehicleStatus": {
+      "title": "Uh oh!",
+      "text": "Your vehicle $scooterName couldn't switch to $status"
+    }
+  }
+}

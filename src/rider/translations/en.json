@@ -1,0 +1,197 @@
+{
+  "app": {
+    "title": "Rider App"
+  },
+  "menu": {
+    "account": "Account",
+    "rideHistory": "Ride history",
+    "guide": "How to DAV",
+    "contactUs": "Contact us"
+  },
+  "support": {
+    "title": "Experiencing any issues?",
+    "text": "Feel free to contact us directly",
+    "buttonPhone": "Call us",
+    "buttonEmail": "E-mail us"
+  },
+  "rideHistory": {
+    "header": "Ride history",
+    "noRidesText": "Nothing to see here... yet :)"
+  },
+  "locationPermissionModal": {
+    "title": "Enable Location",
+    "text": "We need access to your location so we can locate vehicles around you.",
+    "buttonApprove": "Enable"
+  },
+  "davBalancePopup": {
+    "title": "Your DAV coin balance is ",
+    "text": "DAV coins can be used for free rides ",
+    "textBold": "(coming soon)",
+    "buttonApprove": "OK"
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "Welcome to DAV",
+      "subtitle": "The best way to experience your city!"
+    },
+    "slide2": {
+      "title": "Find Your Vehicle",
+      "subtitle": "You'll see us on the street and inside the app"
+    },
+    "slide3": {
+      "title": "Scan & Unlock",
+      "subtitle": "Tap Unlock and scan the vehicle's QR code to start the ride"
+    },
+    "slide4": {
+      "title": "Ride it Like You Own It",
+      "subtitle": "Put on your helmet and ride safely"
+    },
+    "slide5": {
+      "title": "End Ride",
+      "subtitle": "Park according to local rules and tap End Ride to lock the vehicle"
+    }
+  },
+  "signup": {
+    "phone": {
+      "title": "Ride it like you own it.",
+      "description": "Add your mobile phone number to get started",
+      "error": "Code invalid or expired"
+    },
+    "code": {
+      "title": "Validate phone",
+      "text": "An SMS with the code has been sent to"
+    },
+    "t&c": {
+      "text": "By using this app, you agree to the DAV",
+      "link": "Terms & Conditions."
+    }
+  },
+  "ride": {
+    "unlockRide": "Unlock",
+    "endRideButton": "End ride"
+  },
+  "rideSummary": {
+    "pageName": "Ride summary",
+    "title": "Ride ended",
+    "contactUsText": "Something went wrong?",
+    "contactUsButton": "Get in touch",
+    "rate": "How was your ride?",
+    "subtitle": "What was wrong?",
+    "feedbackText": {
+      "label": "Your feedback",
+      "placeholder": "Tell us what's wrong"
+    },
+    "texts": {
+      "cost": "Total cost: ",
+      "youPaid": "You paid with",
+      "paid": "Paid with:",
+      "wowza": "Wowza!",
+      "wowzaText": " You can pay for this ride with the DAV coins you earned!",
+      "dav": "Pay with DAV coins",
+      "fiat": "Pay with your card"
+    }
+  },
+  "account": {
+    "header": "Account",
+    "payment": {
+      "title": "Payment method",
+      "addMore": "Add payment method",
+      "noCard": "No credit card available"
+    },
+    "paymentForm": {
+      "title": "Add credit card",
+      "errors": {}
+    },
+    "personalDetails": {
+      "phone": "Phone number",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email"
+    },
+    "buttons": {
+      "signout": "Sign out",
+      "save": "Save",
+      "discard": "Discard",
+      "change": "Change credit card",
+      "add": "+ Add credit card"
+    },
+    "deletePaymentModal": {
+      "title": "Remove payment method",
+      "text": "Are you sure you want to remove this credit card from your account?"
+    },
+    "paymentErrorModal": {
+      "title": "Uh oh!",
+      "text": "Something went wrong, please try again later",
+      "buttonText": "OK"
+    }
+  },
+  "unlock": {
+    "qr": {
+      "title": "Scan a vehicle"
+    },
+    "input": {
+      "title": "Enter the code",
+      "text": "The code is located on the handlebars"
+    },
+    "vehicleDetails": {
+      "button": {
+        "start": "Start",
+        "openPaymentForm": "Start",
+        "unlocking": "Unlocking",
+        "unlockInitiated": "Unlocking",
+        "unlocked": "Unlocked",
+        "error": ""
+      }
+    },
+    "cameraPermissionModal": {
+      "title": "Enable Camera",
+      "text": "Enable camera in settings. Camera is used to scan QR codes.",
+      "buttonApprove": "Enable"
+    },
+    "errors": {
+      "invalidQr": {
+        "text": "This QR is unknown to us.\nPlease try again, or scan a different QR code.",
+        "title": "Oops..."
+      },
+      "batteryLevel": {
+        "text": "This vehicle can't be unlocked because its battery level is too low.\nPlease try unlocking a different one.",
+        "title": "Uh oh!"
+      },
+      "maintenance": {
+        "text": "This vehicle can't be unlocked because it requires maintenance.\nPlease try unlocking a different one.",
+        "title": "Uh oh!"
+      },
+      "default": {
+        "text": "This vehicle is currently not available for rides.\n Please try unlocking a different one.",
+        "title": "Uh oh!"
+      }
+    }  
+  },
+  "parkingPhoto": {
+    "title": "Verify parking",
+    "text1": "Please don’t block sidewalks and exits",
+    "text2": "Be nice to others :)"
+  },
+  "errors": {
+    "invalidQr": {
+      "text": "This QR is unknown to us.\nPlease try again, or scan a different QR code.",
+      "title": "Oops..."
+    },
+    "unableToUnlock": {
+      "text": "We couldn't unlock this vehicle.\nPlease try again.",
+      "title": "Oops..."
+    },
+    "updateRequired": {
+      "text": "A new version of DAV is ready for download. Please update the app in order to continue using it.",
+      "title": "Update Required",
+      "buttonText": "Update"
+    }
+  },
+  "ThankYouModal": {
+    "title": "Thank you!",
+    "subtitle": {
+      "lowerRating": "We’ve got your feedback and we will look into it ASAP.",
+      "perfectRating": "We appreciate your feedback!"
+    }
+  }
+}

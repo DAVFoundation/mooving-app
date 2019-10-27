@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<View>
+  <Image
+    source={
+      Object {
+        "uri": "https://files.readme.io/d1a25b4-generic-card.png",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 2,
+        "height": 24,
+        "width": 32,
+      }
+    }
+  />
+</View>
+`;
